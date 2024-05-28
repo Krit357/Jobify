@@ -11,7 +11,7 @@ import { validateUpdateUserInput } from "../middleware/validationMiddleware.js";
 import {
   authorizePermissions,
   checkForTestUser,
-} from "../middleware/AuthMiddleware.js";
+} from "../middleware/authMiddleware.js";
 
 router.get("/current-user", getCurrentUser);
 router.get("/admin/app-stats", [
